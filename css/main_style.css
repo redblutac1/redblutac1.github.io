@@ -1,0 +1,58 @@
+h1,h2,p {
+	text-align: center;
+}
+
+#start {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+#intro {
+	background-image: url("../images/ban.jpg");
+	background-size: 1350px 600px;
+	background-repeat: no-repeat;
+	margin: 0px 0px 0px 0px;
+}
+
+#abilities {
+	list-style-type: none;
+}
+
+.inbanner {
+	color: white;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ability {
+	margin-bottom: 20px;
+}
+
+#reim {
+	background-image: url("../images/code.jpg");
+	width: 100%;
+	height: 500px;
+
+}
+
+#int{
+	background-image: url("../images/interface.jpg");
+	width: 100%;
+	height: 500px;
+
+}
+
+#fris{
+	background-image: url("../images/teamwork.jpg");
+	width: 100%;
+	height: 500px;
+
+	
+}
+

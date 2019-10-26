@@ -1,0 +1,12 @@
+#src {
+    width: 45%;
+    height: 500px;
+    margin: 2%;
+}
+
+#output {
+    width: 45%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 2%;
+}
