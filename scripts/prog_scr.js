@@ -5,6 +5,12 @@ window.loaded = false;
 document.getElementById('htmllogo').style.cursor = 'pointer';
 document.getElementById('pythonlogo').style.cursor = 'pointer';
 
+document.getElementById('tasklist').style.cursor = 'pointer';
+
+languagePluginLoader.then(() => {
+    console.log(pyodide.runPython('import sys\nsys.version'));
+});
+
 function getTask(task) {
     task = task || "none";
     if(task === "Start collaborating"){
@@ -136,7 +142,7 @@ function runit() {
     var mypre = document.getElementById("pre");
     mypre.innerHTML = ''; 
     Sk.output = "pre";
-    Sk.configure({output:outf, read:builtinRead}); 
+    Sk.configure({output:outf, read:builtinRead, __future__:Sk.python3}); 
     (Sk.TurtleGraphics || (Sk.TurtleGraphics = {})).target = 'drawing';
     var myPromise = Sk.misceval.asyncToPromise(function() {
         return Sk.importMainWithBody("<stdin>", false, prog, true);

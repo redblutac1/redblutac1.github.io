@@ -2,24 +2,30 @@ body {
 	margin: 0px;
 }
 
+#topbar {
+	display:block;
+	width: 100%;
+}
+
 #toolbar {
 	list-style-type: none;
 	display: block;
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 	border: none;
 }
 
-#topbar {
-    display:block;
+#logo {
+	width: 44%;
 }
 
 #link {
 	display: block;
 	background-color: #333;
-	width: 23vw;
-	padding: 0px 20vw 0px 0vw;
+	width: 52%;
+	padding: 0px 48% 0px 0%;
 	text-decoration: none;
 	box-align: left;
 	float: left;
@@ -31,14 +37,18 @@ body {
 	float: left;
 }
 
+#edit, #contact {
+	width: 28%;
+}
+
 .toollinks a {
 	display: block;
 	text-align: center;
 	text-decoration: none;
 	background-color: #333;
-	padding: 11px 5vw 12px 5vw;
+	padding: 11px 0% 12px 0%;
 	margin: 0;
-	width: 17vw;
+	width: 100%;
 	color: white;
 }
 

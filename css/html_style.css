@@ -51,3 +51,33 @@ body {
     height: 250px;
     overflow-y: scroll;
 }
+
+#taskbar {
+    width:100%;
+}
+
+#tasklist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+    width:100%;
+}
+
+.tasklinks {
+    float: left;
+    width: 33%;
+}
+
+.task {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 20% 8px 20%;
+    text-decoration: none;
+}
+
+#output, #pre, #drawing {
+    display:block;
+}

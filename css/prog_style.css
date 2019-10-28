@@ -10,3 +10,27 @@
     border: 1px solid black;
     margin: 2%;
 }
+
+#tasklist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.tasklinks {
+	float: left;
+}
+
+.task {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#output, #pre, #drawing {
+    display:block;
+}
