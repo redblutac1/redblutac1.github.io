@@ -50,7 +50,6 @@ function hideBanner() {
 function updateLang(hover,click) {
     hover = hover || "none";
     click = click || 'none';
-    console.log(hover + click);
     var HTMLlogo = document.getElementById('htmllogo');
     var pythonlogo = document.getElementById('pythonlogo');
     if(click === 'HTML') {
@@ -163,28 +162,24 @@ function openPyWin() {
     var ifr = document.getElementById("output");
     var pre = document.getElementById('pre');
     var canvas = document.getElementById("drawing");
-    var sel = document.getElementById("lang");
     ifr.style.height = '0px';
     ifr.style.width = '0px';
     pre.style.height = '200px';
     pre.style.width = '45%';
     canvas.style.height = '200px';
     canvas.style.width = '45%';
-    sel.style.backgroundColor = 'green';
 }
 
 function closePyWin() {
     var ifr = document.getElementById("output");
     var pre = document.getElementById('pre');
     var canvas = document.getElementById("drawing");
-    var sel = document.getElementById("lang");
     ifr.style.height = '500px';
     ifr.style.width = '45%';
     pre.style.height = '0px';
     pre.style.width = '0px';
     canvas.style.height = '0px';
     canvas.style.width = '0px';
-    sel.style.backgroundColor = 'purple';
 }
 
 function showLang() {

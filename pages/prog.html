@@ -12,12 +12,12 @@
 	<body>
 		<div id="topbar">
 			<ul id="toolbar">
-				<li class="toollinks" id="logo"><a href="main.html" id="link"><span style="font-family: 'Ubuntu', sans-serif;font-size:48px;"><span style="color: rgb(233, 17, 17);">Code</span><span style="color: rgb(13, 13, 221);">Connect</span></span></a></li>
+				<li class="toollinks" id="logo"><a href="main.html" id="link"><span style="font-family: 'Ubuntu', sans-serif;font-size:48px;"><span style="color: rgb(155,28,31);">CodeConnect</span></a></li>
 				<li class="toollinks" id="edit"><a href="prog.html">Editor</a></li>
 				<li class="toollinks" id="contact"><a href="contact.html">About & Help</a></li>
 			</ul>
 		</div>
-		<div id="newlang" onmouseover="exposeBanner()" onmouseout="hideBanner()" style="display:block;width: 100%;height: 10px;background-color: lightgray;">
+		<div id="newlang" onmouseover="exposeBanner()" onmouseout="hideBanner()" style="display:block;width: 100%;height: 10px;background-color: #888888;">
             <img src="../images/htmllogowhite.png" id="htmllogo" onmouseover="updateLang(hover='HTML')" onmouseout="updateLang()" onclick="updateLang('none','HTML')" style="height:0px;width:0px;margin:15px;"/>
 		    <img src="../images/pythonlogoblack.png" id="pythonlogo" onmouseover="updateLang(hover='Python')" onmouseout="updateLang()" onclick="updateLang('none','Python')"style="height:0px;width:0px;margin:15px;"/>
         </div>
@@ -30,9 +30,9 @@
 		</div>
 		<div id="content" style="display:block;">
 			<textarea id="src" onkeydown="insertTab(this,event);" onkeyup = "exeCode();">Code here...</textarea>
-			<iframe id="output" style= 'display:inline-block;'></iframe>
-			<pre id="pre" style="height: 0; width: 0; border: 1px solid blue;"></pre>
-			<div id="drawing" style="height: 0; width: 0; border: 1px solid red;"></div>
+			<iframe id="output" style= 'display:inline-block; background-color: #F7F7F7;'></iframe>
+			<pre id="pre" style="height: 0; width: 0; border: 1px solid #888888; background-color: #F7F7F7;"></pre>
+			<div id="drawing" style="height: 0; width: 0; border: 1px solid #888888; background-color: #F7F7F7;"></div>
 		</div>
 		<script src="../scripts/prog_scr.js"></script>
 		<script src="../scripts/all_scr.js"></script>

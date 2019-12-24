@@ -1,5 +1,6 @@
 body {
 	margin: 0px;
+	background-color: #F2EdE1;
 }
 
 #topbar {
@@ -23,7 +24,7 @@ body {
 
 #link {
 	display: block;
-	background-color: #333;
+	background-color: #333333;
 	width: 52%;
 	padding: 0px 48% 0px 0%;
 	text-decoration: none;
@@ -45,15 +46,15 @@ body {
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	background-color: #333;
+	background-color: #333333;
 	padding: 11px 0% 12px 0%;
 	margin: 0;
 	width: 100%;
-	color: white;
+	color: #F7F7F7;
 }
 
 .toollinks a:hover {
-	background-color: #111
+	background-color: #000000
 }
 
 h1 {
